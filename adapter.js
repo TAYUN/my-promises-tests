@@ -1,4 +1,4 @@
-const MyPromise = require('./MyPromise');
+const MyPromise = require('./src/MyPromise');
 
 module.exports = {
   // 创建一个已解决的 promise

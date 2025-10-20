@@ -1,4 +1,4 @@
-const MyPromise = require('./MyPromise');
+const MyPromise = require('../src/MyPromise');
 
 function runTest(testName, PromiseImpl, prefix = '') {
   console.log(`\n=== ${testName} ===`);
