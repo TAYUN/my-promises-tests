@@ -288,6 +288,11 @@ class MyPromise {
       });
     });
   }
+
+  // 添加 Symbol.toStringTag 以改善调试体验
+  get [Symbol.toStringTag]() {
+    return 'Promise';
+  }
 }
 
 module.exports = MyPromise;
