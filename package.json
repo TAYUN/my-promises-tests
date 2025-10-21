@@ -13,6 +13,8 @@
         "lib/"
     ],
     "scripts": {
+        "dev": "npx promises-aplus-tests adapter.js",
+        "dev2": "node lib/cli.js adapter.js",
         "lint": "jshint lib",
         "test": "mocha",
         "prepublish": "node ./scripts/generateTestFiles.js"
